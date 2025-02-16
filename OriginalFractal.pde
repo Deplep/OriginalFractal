@@ -17,6 +17,6 @@ public void fractalTree(float x, float y, float len, float angle, float depth){
   //0.67
   fractalTree(x2, y2, len * 0.7, angle + PI/5, depth - 1); //right branch
   fractalTree(x2, y2, len * 0.7, angle - PI/5, depth - 1); // left branch
-  fractalTree(x2, y2, len * 0.4, angle + PI, depth - 1);  // Extra Right
-  fractalTree(x2, y2, len * 0.4, angle - PI, depth - 1);  // Extra Left
+  fractalTree(x2, y2, len * 0.35, angle + PI, depth - 1);  // Extra Right
+  fractalTree(x2, y2, len * 0.35, angle - PI, depth - 1);  // Extra Left
 }
